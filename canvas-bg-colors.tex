@@ -37,7 +37,7 @@
 
 \def\layersep{49em}
 \def\layerwidth{49em}
-\linespread{1.15}
+\linespread{1.5}
 
 \vfill
 
@@ -75,7 +75,9 @@
             minimum height=24em,
             text centered
         ] at (0:\R/2) {
-            \faIcon{tasks}
+            \faIcon{tasks} \\
+            {\huge Taken \\}
+            {\large (Customer Jobs)}
         };
 
         % Gains
@@ -84,7 +86,9 @@
             text centered,
             minimum height=20em,
         ] at (120:\R/2) {
-            \faIcon[regular]{grin-wink}
+            \faIcon[regular]{grin-wink} \\
+            {\huge Verbeteringen \\}
+            {\large (Gains)}
         };
 
         % Pains
@@ -93,7 +97,9 @@
             text centered,
             minimum height=20em,
         ] at (240:\R/2) {
-            \faIcon[regular]{tired}
+            \faIcon[regular]{tired} \\
+            {\huge Verslechteringen \\}
+            {\large (Pains)}
         };
 
         \node [circle, fill=white] at (0:0) {
@@ -132,7 +138,9 @@
         minimum height=0.45*\layerwidth,
         text centered
     ] at (45:0.35*\layerwidth) {
-        \faIcon{chart-line}
+        \faIcon{chart-line} \\
+        {\huge Winstgevers \\}
+        {\large (Gain Creators)}
     };
 
     % Products and Services
@@ -144,7 +152,9 @@
         minimum height=18em,
         outer sep=0
     ] at (180:0.495*\layerwidth) {
-        \faIcon{concierge-bell}
+        \faIcon{concierge-bell} \\
+        {\huge Producten~\& \\ diensten} \\
+        {\large (Products and Services)}
     };
 
     % Pain Relievers
@@ -153,7 +163,9 @@
         minimum height=0.45*\layerwidth,
         text centered
     ] at (315:0.35*\layerwidth) {
-        \faIcon{capsules}
+        \faIcon{capsules} \\ 
+        {\huge Pijnverlichters \\}
+        {\large (Pain Relievers)}
     };
 
     \node [circle, fill=white] at (0:0) {
